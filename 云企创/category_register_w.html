@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>微企注册申请</title>
+</head>
+<link rel="stylesheet" href="css/category_register.css">
+<link rel="stylesheet" href="css/colors.css">
+<link rel="stylesheet" href="css/index.css">
+<body>
+	
+			
+<div class="wl_top">
+    <div class="wide margin">
+        <span>您好，欢迎来到云动力服务平台！</span>
+        <ul>
+            <li>
+                <a href="">[登录]</a>
+                <a href="">[注册]</a>
+            </li>
+            <li><a href="" style="padding:0 5px;border-left: 1px solid #E3E3E3;border-right: 1px solid #E3E3E3;">关注我们</a></li>
+            <li><a href="">收藏本站</a></li>
+            <li class="tel"><a href="" style="font-weight: bold">400-805-2223</a></li>
+        </ul>
+    </div>
+</div>
+<!--顶部 E-->
+
+<div class="wl_header">
+    <div class="wide margin">
+        <div class="wl_head">
+            <a href=""><div class="wl_logo"></div></a>
+            <div class="wl_search">
+                <li>
+                <input type="text" placeholder="   请输入关键字..." class="search">
+                <input type="button" name="" value="搜索" class="button">
+                </li>
+                <div class="wl_hot">
+                    <span style="display: block;">热门搜索:</span>
+                    <ul>
+                        <li>网站建设</li>
+                        <li>网站建设</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="wl_menu">
+            <div class="wl_nav"><span>首页</span></div>
+            <ul>
+                <li><a href="">服务超市</a></li>
+                <li><a href="">需求大厅</a></li>
+                <li><a href="">项目库</a></li>
+                <li><a href="">服务商入住</a></li>
+                <li><a href="">创业百事通</a></li>
+                <li><a href="">交流活动</a></li>
+            </ul>
+        </div>
+
+    </div>
+</div>
+<!--头部 E-->
+
+<div class="reg_bg"><img src="img/login_reg_bg.jpg" alt="banner" /></div>
+
+	
+<div class="reg_box">
+	<div class="register" id="register1">
+	    <h4 class="orange_g">注册须知</h4>
+	    <div class="detail" style="overflow: hidden;">
+	        <h3>微企注册须知</h3>
+	        <p>一、为了帮助创业者了解创业扶持政策，掌握创业基本知识，我市开展了微型企业免费创业培训 ，所有未满60周岁的微型企业创业者可免费申请参加</p>
+	        <p>二、微型企业创业者可申请参加所在区县的创业培训，也可接受市级培训机</p>
+	        <p>三、若微型企业创业者已参加过SYB培训，并取得SYB培训合格证书，则在申请创业培训时选择“申请免培训”。</p>
+	    </div>
+	    <button id="next" class="">下一步</button>
+	</div>
+	
+	<div class="register" id="register2">
+	    <h4 class="orange_g">企业信息完善</h4>
+	    <div class="detail">
+	        <form action="post">
+	            <label>用户名<span>*</span><input type="text" value=""></label>
+	            <label class="radio">营业执照类型<span>*</span>
+	                <div class="radio_msg">
+	                    <label><input name="zhizhao" type="radio" value="" />旧版营业执照 </label>
+	                    <label ><input name="zhizhao" type="radio" value="" />三证合一营业执照 </label>
+	                </div>
+	            </label>
+	            <label>公司名<span>*</span><input type="text" value="" placeholder="请输入公司全名"></label>
+	            <label>企业法人<span>*</span><input type="text" value="" placeholder="请输入企业法人"></label>
+	            <label>法人身份证号<span>*</span><input type="text" value="" placeholder="请输入18位二代身份证"></label>
+	            <label>营业执照号<span>*</span><input type="text" value="" placeholder="（社会信用代号）请核对后输入"></label>
+	            <label>组织机构代码<span>*</span><input type="text" value="" placeholder="如：56XXXXX28-3，请核对后输入"></label>
+	            <label>企业所在地<span>*</span>
+	                <select onchange="chinaChange(this,document.getElementById('city'));">
+	                    <option value ="请选择">请选择</option>
+	                    <option value ="北京市">北京市 </option>
+	                    <option value ="天津市">天津市 </option>
+	                    <option value ="上海市">上海市 </option>
+	                    <option value ="重庆市">重庆市 </option>
+	                    <option value ="河北省">河北省 </option>
+	                    <option value ="山西省">山西省 </option>
+	                    <option value ="辽宁省">辽宁省 </option>
+	                    <option value ="吉林省">吉林省 </option>
+	                    <option value ="黑龙江省">黑龙江省</option>
+	                    <option value ="江苏省">江苏省 </option>
+	                    <option value ="浙江省">浙江省 </option>
+	                    <option value ="安徽省">安徽省 </option>
+	                    <option value ="福建省">福建省 </option>
+	                    <option value ="江西省">江西省 </option>
+	                    <option value ="山东省">山东省 </option>
+	                    <option value ="河南省">河南省 </option>
+	                    <option value ="湖北省">湖北省 </option>
+	                    <option value ="湖南省">湖南省 </option>
+	                    <option value ="广东省">广东省 </option>
+	                    <option value ="海南省">海南省 </option>
+	                    <option value ="四川省">四川省 </option>
+	                    <option value ="贵州省">贵州省 </option>
+	                    <option value ="云南省">云南省 </option>
+	                    <option value ="陕西省">陕西省 </option>
+	                    <option value ="甘肃省">甘肃省 </option>
+	                    <option value ="青海省">青海省 </option>
+	                    <option value ="台湾省">台湾省 </option>
+	                    <option value ="广西壮族自治区">广西壮族自治区</option>
+	                    <option value ="内蒙古自治区">内蒙古自治区</option>
+	                    <option value ="西藏自治区">西藏自治区</option>
+	                    <option value ="宁夏回族自治区">宁夏回族自治区 </option>
+	                    <option value ="新疆维吾尔自治区">新疆维吾尔自治区</option>
+	                    <option value ="香港特别行政区">香港特别行政区</option>
+	                    <option value ="澳门特别行政区">澳门特别行政区</option>
+	                </select></label>
+	            <label>办公地址<span>*</span><input type="text" value="" placeholder="xx区xx路xx号"></label>
+	            <label>成立时间<span>*</span><input type="text" value=""></label>
+	            <label class="radio" style="line-height: 120px">企业规模<span>*</span>
+	                <div class="radio_msg">
+	                    <label><input name="guimo" type="radio" value="" />1-10人 </label>
+	                    <label ><input name="guimo" type="radio" value="" />11-20人 </label>
+	                    <label ><input name="guimo" type="radio" value="" />30-50人 </label>
+	                    <label ><input name="guimo" type="radio" value="" />51-100人 </label>
+	                </div>
+	            </label>
+	            <label>所属行业<span>*</span>
+	                <select onchange="chinaChange(this,document.getElementById('city'));">
+	                    <option value ="请选择">请选择</option>
+	                    <option value ="农/林/牧/渔">农/林/牧/渔</option>
+	                    <option value ="采矿业">采矿业 </option>
+	                    <option value ="制造业">制造业 </option>
+	                    <option value ="电力/热力/燃气及水生产和供应业建筑">电力/热力/燃气及水生产和供应业建筑 </option>
+	                    <option value ="建筑业">建筑业 </option>
+	                    <option value ="批发和零售业">批发和零售业 </option>
+	                    <option value ="交通运输/仓储和邮政业">交通运输/仓储和邮政业 </option>
+	                    <option value ="住宿和餐饮业">住宿和餐饮业 </option>
+	                    <option value ="信息传输/软件和信息技术服务业">信息传输/软件和信息技术服务业 </option>
+	                    <option value ="金融业">金融业</option>
+	                    <option value ="房地产业">房地产业 </option>
+	                    <option value ="租赁和商务服务业">租赁和商务服务业 </option>
+	                    <option value ="科学研究和技术服务业">科学研究和技术服务业 </option>
+	                    <option value ="水利/环境和公共设施管理业">环境和公共设施管理业 </option>
+	                    <option value ="居民服务/修理和其他服务业">居民服务/修理和其他服务业 </option>
+	                    <option value ="教育">教育 </option>
+	                    <option value ="卫生和社会工作">卫生和社会工作 </option>
+	                    <option value ="文化/体育和娱乐">文化/体育和娱乐 </option>
+	                    <option value ="公共管理/社会保障和社会组织">公共管理/社会保障和社会组织 </option>
+	                </select>
+	            </label>
+	            <label>主要产品及服务<span>*</span><input type="text" value="" placeholder="如绿色有机蔬菜"></label>
+	            <button type="submit" id="submit" class="blue_g">提&nbsp;&nbsp;&nbsp;交</button>
+	        </form>
+	        <!--<h2 class="blue_g">微企注册须知</h2>-->
+	    </div>
+	</div>
+	<div class="complete" id="complete" >
+	    <h4>注册成功</h4>
+	    <div class="msg"><span>AAA</span>恭喜您！注册成功</div>
+	    <button class="blue_g">确&nbsp;&nbsp;&nbsp;定</button>
+	</div>
+</div>	
+
+
+<div class="clear"></div>
+
+<!-- footer -->
+<div class="footer">
+    <div class="footer_center">
+        <ul>
+           <li>Copyright@2013-2017云动力科技有限公司版权所有 All Rights Reserved © 陕ICP备14009030号网站介绍
+            </li>
+            <li>
+                地址: 西安市高新三路财富中心二期B座（1505室）
+            </li>
+            <li>
+                工作时间: 9:00-18:00 电话: 400-805-2223
+            </li>
+        </ul>
+    </div>
+</div>
+<!-- footer E -->
+
+<!-- go top -->
+<div class="go_zj" id="go_zj">
+    <li class="go_wechat"></li>
+    <li class="go_qq"></li>
+    <li class="go_wibo"></li>
+    <li class="go_top" id="go_top"></li>
+</div>
+<!-- go top E -->
+
+
+</body>
+<script src="js/city_option.js"></script>
+<script src="js/register.js"></script>
+<script type="text/javascript" src="js/jquery1.42.min.js"></script>
+    <script src="js/index.js"></script>
+</html>

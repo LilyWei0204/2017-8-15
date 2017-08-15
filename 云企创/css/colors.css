@@ -1,0 +1,30 @@
+*,body {
+    margin: 0;
+    padding: 0;
+    color: #444;
+    list-style: none;
+}
+button{border: none}
+.orange{color:#fa6804 }
+button .orange_g:hover{background: #fa6804;    box-shadow: 0 0 5px #fa6804;}
+button .blue_g:hover{background: #015eaf;    box-shadow: 0 0 5px #005cac;}
+.orange_g{   background: #fa6804;
+    background: -moz-linear-gradient(top, #f88c41  0%, #fa6804 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f88c41), color-stop(100%,#fa6804));
+    background: -webkit-linear-gradient(top,#f88c41  0%, #fa6804 100%);
+    background: -o-linear-gradient(top,#f88c41  0%,#fa6804 100%);
+    background: -ms-linear-gradient(top,#f88c41  0%,#fa6804 100%);
+    background: linear-gradient(to bottom, #f88c41 0%, #fa6804 100%);
+    color: #fff;}
+.blue{color:#015eaf; }
+.blue_g{   background: #015eaf;
+    background: -moz-linear-gradient(top, #2792ef 0%,#015eaf  100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2792ef), color-stop(100%,#015eaf));
+    background: -webkit-linear-gradient(top, #2792ef 0%,#015eaf 100%);
+    background: -o-linear-gradient(top, #2792ef 0%,#015eaf 100%);
+    background: -ms-linear-gradient(top, #2792ef 0%,#015eaf 100%);
+    background: linear-gradient(to bottom, #2792ef 0%,#015eaf 100%);
+    color: #fff;}
+.zhezhao{width: 100%;height:1000px;background:rgba(0,0,0,0.7);position: fixed;top: 0;z-index:2;display: none}
+.zhezhao1{width: 100%;height:1000px;position:absolute;top:340px;z-index:2}
+.shadow{box-shadow: 0 0 5px #ccc}

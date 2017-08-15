@@ -1,0 +1,39 @@
+*{margin: 0;padding: 0;}
+h2{ padding: 10px 15px}
+.list_quan{width: 750px;margin: 20px auto;text-align: center;border: 1px solid #ddd}
+.list_quan table{width: 95%;margin:30px auto;}
+.list_quan table tr td{width: 48.5%;height:calc(100% - 10px);padding-left: 1.5%/*;border-right: 1px solid #ddd;border-bottom: 1px solid #ddd*/}
+.list_quan table tr td:last-child{border-right:none;}
+.quan_bg{width:100%;margin:0 auto;height:100%;position:relative;border-right:4px dashed #fff; border-left:4px dashed #fff;  }
+.quan_bg h4{width:70%;margin:0 auto;padding:0px 15% 0 15%;line-height:50px;letter-spacing: 5px;border-top:6px solid #fff;color: #fff}
+.quan_bg h2{width:60%;border-top: 1px solid rgba(255,255,255,0.7);margin:0 20% 10px 20%;padding-top:8px;background: none }
+.quan_bg h2 span{margin: 0 30px 0 0;color:#f88c41}
+.quan_bg p{width:80%;font-size: 12px;text-align: left;padding:0 0 16px 70px;*padding:0 0 16px 70px;_padding:0 0 16px 70px;border-bottom:7px solid #fff;margin: 0;color: #fff}
+.quan_msg{width: calc(95% - 40px);height:calc(90% - 20px);font-size: 14px;padding:15px 15px 15px 20px;*padding:15px 15px 15px 20px;_padding:15px 15px 15px 20px;color:#015eaf;text-align: left;text-indent: 24px;margin: 0 auto;border-top: 4px dashed #015eaf;border-right: 4px dashed #015eaf;border-bottom: 4px dashed #015eaf;outline:6px solid #fff}
+.list_quan tr:hover .quan_bg{cursor: pointer;background:#015eaf;box-shadow: 0 0 4px #ddd  }
+.list_quan tr:hover td{box-shadow: 0 0 4px #ddd}
+.list_quan  .quan_msg:hover{cursor: pointer;background:#015eaf;color: #fff;transform: perspective(600px) rotateY(-15deg);transform-origin:0px 0px 0px;}
+.quan_ling{width:500px;background:#fff;margin: 250px 0 0 50%;position: fixed;left: -250px;box-shadow: 0 0 8px #333}
+.quan_ling h4{padding: 10px 15px;background: #015eaf;color: #fff;margin: 0}
+.quan_ling p{text-align: center;margin-top:50px;line-height: 30px;font-size: 18px }
+.quan_ling p a{font-size: 16px}
+.quan_ling button{width: 200px;
+    height: 50px;
+    line-height: 50px;
+    margin: 30px 0 40px 50%;
+    text-align: center;
+    border: none;
+    padding: 0;
+    position: relative;
+    left: -100px;}
+.quan_ling button:hover{
+    background: #005cac;
+    cursor: pointer;
+    box-shadow: 0 0 5px #005cac;
+    font-size: 16px;
+    font-weight: bold
+}
+.pages{width:600px;margin: 0 auto;height:50px;padding:20px 0;}
+.pages span{padding: 3px 10px;border: 1px solid #ddd;color: #666;margin: 3px 5px}
+.pages span.active{ background:#015eaf; cursor: pointer;color: #fff}
+.pages span:hover{ background:#015eaf;;color: #fff;cursor: pointer;box-shadow: 0 0 4px #ddd }

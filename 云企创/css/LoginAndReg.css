@@ -1,0 +1,54 @@
+/*登录页面*/
+.login{width: 740px;min-height:632px;margin:0 auto;background: #fff;text-align: center;position: relative;padding-bottom: 50px;border: 1px solid #ddd;box-shadow: 0 0 4px #ddd}
+.login form{width: 100%;}
+.login h2{font-weight: normal;}
+.login span.msg{width:100%;line-height:141px;background: #fff;position: relative;top:26px;z-index: 3;padding:16px 20px;font-size: 20px;}
+.login span.active{border-bottom: 1px solid #fa6804}
+.login p{position: relative;width:62%;min-width: 300px; margin: 0 auto;float: none }
+.login_title{width:100%;}
+.login_center{width:100%;height:auto;overflow:hidden;}
+.login_center div{float: left;width:49%;height:596px;}
+.login p img{width: 31px;height: 31px;position: absolute;left:10px;top:22px}
+.login_img{background:url(../img/login_center_img.png) no-repeat 10px 140px;border-right:1px solid #eaeaea;}
+.login i{height:0px;width: 100%;position: absolute;left:0;top:100px;border-bottom: 1px solid #ededed; margin-bottom:100px;background: #ededed}
+.login input{width:84%;padding:17px 5% 17px 20%;margin:10px auto;border-radius: 3px;border: 1px solid #ddd;box-shadow: 0 0 3px #ccc;}
+.login button{padding: 15px 0;font-size: 16px;width: 100%;margin: 30px 0;border-radius: 3px;}
+.login button:hover{background: #fa6804;color: #fff;box-shadow: 0 0 8px #999;cursor: pointer}
+.login a{text-decoration: none}
+.login p.guanzhu a{width:52px;height:52px;margin: 0 22px;position: relative;bottom:30px;z-index: 3;border: 2px solid #f98434;border-radius: 50%;padding:0;float: left}
+.login p.guanzhu a:hover{box-shadow: 0 0 8px #f98434; border: 2px solid #f98434}
+/*个人和单位注册*/
+.verification_code{width:24% !important; float:right !important;margin: 0 !important;left: 0 !important; margin-left:6px !important;height: 39px !important; font-size:14px !important;line-height: 100% !important}
+.login .register form{min-width: inherit}
+.login .register form label{width: 100%;padding:10px 0; margin: 25px 0 !important;line-height: 40px}
+.login .register form label input{width:66%; height: 30px;    padding: 4px 10px;}
+.login_reg_bg{width: 100%;height:585px;overflow:hidden;}
+.login_reg_bg img{width: 100%}
+.login .register .detail{text-indent: 0}
+#personal_d{display: none}
+.login .register{margin-top: -40px}
+.msg:hover{cursor: pointer}
+.msg1{display: inline-block;text-indent: 10px; }
+.msg1 span{color: #333;font-size: 12px;top:0;margin-top:-10px; margin-left:12px;font-weight: normal;float: left;}
+#ico_dui{ text-indent: 0; /*margin:8px 10px 0px 0px;*/border-radius: 0;width: 14px;height:14px;/*background:#fa6700;*/float: left;position: absolute;/*left:18%;*/box-shadow: none}
+/*#ico_dui img{width: 100%; height: 100%;padding: 0; margin: 0;text-indent: 0;position: relative;display: none}*/
+#ico_dui  label{height:14px;padding: 0; margin:9px 0}
+.msg1 a{float:right;font-size: 14px;padding: 0;padding-bottom: 70px}
+[id="checkbox-1"]:checked + label ,[id="checkbox-2"]:checked + label {
+    background-image: url("images/dui.jpg");
+    background-color: #fa6700;
+
+    background-repeat: no-repeat;
+    background-position: center;
+}
+[id^="checkbox-"] + label {
+    background-color: #fa6700;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+    padding: 9px;
+    border-radius: 1px;
+    display: inline-block;
+    vertical-align: middle;
+}
+[id^="checkbox-"] + label:active {
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+}

@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/index.css">
+    <title>二级列表页</title>
+    <script src="js/jquery1.42.min.js"></script>
+    <!--<script src="js/index.js"></script>-->
+</head>
+<body>
+    <div class="wl_top">
+        <div class="wide margin">
+            <span>您好，欢迎来到云动力服务平台！</span>
+            <ul>
+                <li>
+                    <a href="">[登录]</a>
+                    <a href="">[注册]</a>
+                </li>
+                <li><a href="" style="padding:0 5px;border-left: 1px solid #E3E3E3;border-right: 1px solid #E3E3E3;">关注我们</a></li>
+                <li><a href="">收藏本站</a></li>
+                <li class="tel"><a href="" style="font-weight: bold">400-805-2223</a></li>
+            </ul>
+        </div>
+    </div>
+<!--顶部 E-->
+
+<div class="wl_header">
+    <div class="wide margin">
+        <div class="wl_head">
+            <a href=""><div class="wl_logo"></div></a>
+            <div class="wl_search">
+                <input type="text" value="   请输入关键字" class="search"><button>搜索</button>
+                <div class="wl_hot">
+                    <span style="display: block;">热门搜索:</span>
+                    <ul>
+                        <li>网站建设</li>
+                        <li>网站建设</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="wl_menu">
+            <div class="wl_nav"><span>全部资源分类</span></div>
+            <ul>
+                <li><a href="">首页</a></li>
+                <li><a href="">服务超市</a></li>
+                <li><a href="">需求大厅</a></li>
+                <li><a href="">项目库</a></li>
+                <li><a href="">服务商入住</a></li>
+                <li><a href="">创业百事通</a></li>
+                <li><a href="">交流活动</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--头部 E-->
+
+
+<div class="l_add">
+	<a href="#" title="">软件技术</a> > <a href="#" title="">微信开发</a> > <a href="#">微商城建设</a>
+</div>
+<div class="show_pro">
+	
+	<div class="show_pic">
+		<div class="bd">
+			<ul>
+				<li><img src="img/s_pro_1.jpg" alt="" /></li>
+				<li><img src="img/s_pro_2.jpg" alt="" /></li>
+				<li><img src="img/s_pro_3.jpg" alt="" /></li>
+				<li><img src="img/s_pro_4.jpg" alt="" /></li>
+				
+			</ul>
+		</div>
+		<div class="p_info">
+			<h3>微信建站</h3>
+			<span class="s_p">市场价：¥8500</span> <b>平台价：¥5000</b>
+			<p>服务区域：全国  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;成交数量：234</p>
+			<div>购买数量： <span id="minus">-</span><input type="text" value="2" id="b_num"/><span id="plus">+</span></div>
+			<button class="buy">购买服务</button><button>加入购物车</button>
+		</div>
+	</div>
+	<div class="show_info">
+		<img src="img/s_logo.jpg" alt="" />
+		<h3>云动力科技-微信网站建设</h3>
+		<p style="text-align: center;">西安云动力科技有限公司</p>
+		<p>行业：<span>软件开发</span></p>
+		<p>网址：<span>www.yunintel.com</span></p>		
+		<p>地址：<span>西安高新区财富中心二期B座</span></p>
+	</div>
+	
+	<div class="clear"></div>
+	
+	<div class="hd">
+		<ul>
+			<li><img src="img/s_pro_1.jpg"/></li>
+			<li><img src="img/s_pro_2.jpg"/></li>
+			<li><img src="img/s_pro_3.jpg"/></li>
+			<li><img src="img/s_pro_4.jpg"/></li>
+		</ul>
+	</div>
+	
+	<!--产品详情：-->
+	<div class="s_pro_info">
+		<div class="tit">
+			<ul>
+				<li class="on">服务介绍</li>
+				<li>常见问题</li>
+				<li>售后保障</li>
+				<li>用户评价</li>
+			</ul>
+		</div>
+		<div class="cont">
+			<ul>
+				<li><img src="img/show_pro.jpg"/></li>
+				<li><img src="img/show_pro.jpg"/></li>
+				<li><img src="img/show_pro.jpg"/></li>
+				<li><img src="img/show_pro.jpg"/></li>
+			</ul>
+		</div>
+	</div>
+	
+	
+</div>
+
+<script>
+//	详情页产品图片切换效果.
+	$(".show_pro .hd li").click(function(){
+		var i = $(this).index();
+		$(".show_pro .bd li").siblings().hide().eq(i).show();
+	});
+	
+//	详情页产品详情切换
+	$(".s_pro_info .tit li").click(function(){
+		$(".s_pro_info .cont li").siblings().hide().eq($(this).index()).show();
+		$(this).addClass("on").siblings().removeClass("on");
+	});
+	
+</script>
+
+
+
+<!--
+<script>
+	var i=0;
+	var val = $("#b_num").val();
+	$("#minus").click(function(){
+		i= val;
+		--i;
+		if(i<0){
+			i=0;
+		};
+		val = i;
+		alert(val);
+	});
+	
+	$("#plus").click(function(){
+		--i;
+		$("#b_num").val()==i;
+	})
+</script>-->
+
+</body>
+</html>

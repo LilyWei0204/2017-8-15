@@ -1,0 +1,139 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>企业认证</title>
+
+<link rel="stylesheet" href="css/login.css">
+<script src="js/jquery1.42.min.js"></script>
+<script src="js/index.js"></script>
+</head>
+<body>
+<div class="logo_firm" id="logo_firm">
+    <div class="firm_logo">
+        <div class="title">
+            欢迎入驻云动力
+        </div>
+        <div class="bd">
+            <form >
+                <ul class="form">
+                    <li class="form_ins">企业用户名<span>*</span></li>
+                    <li class="center"><input type="text" name="" class="input_qb"></li>
+                    <li class="tishi"><i><img src="img/logo_cwtishi.png" alt=""></i>请输入用户名</li>
+                </ul>
+                <ul class="form">
+                    <li class="form_ins">企业名称<span>*</span></li>
+                    <li class="center"><input class="input_qb" type="text" name="" placeholder="与组织结构代码证保持一致"></li>
+                    <li class="tishi"><i><img src="img/logo_cwtishi.png" alt=""></i>请输入企业名称</li>
+                </ul>
+                <ul class="form">
+                    <li class="form_ins">注册地址<span>*</span></li>
+                    <li class="center"><input class="input_qb" type="text" name="" placeholder="请填入地址"></li>
+                    <li class="tishi"><i><img src="img/logo_cwtishi.png" alt=""></i>请输入地址</li>
+                </ul>
+                <ul class="form">
+                    <li class="form_ins">企业类型<span>*</span></li>
+                    <li class="center"><input class="input_qb click_xiala" type="text" name="" placeholder="请填入企业类型" value="">
+                    <span class="form_xiala"><img src="img/xiala.png" alt=""></span>
+                    <div>
+                        <ul class="xiala_ulxx">
+                            <li>服务商</li>
+                            <li>孵化器</li>
+                            <li>金融机构</li>
+                        </ul>
+                    </div>
+                    </li>
+                    <li class="tishi"><i><img src="img/logo_cwtishi.png" alt=""></i>请输入企业类型</li>
+                </ul>
+                <ul class="form">
+                    <li class="form_ins">所属入驻城市<span>*</span></li>
+                    <li class="center"><input class="input_qb" type="text" name="" placeholder="请填入入驻城市"></li>
+                    <li class="tishi"><i><img src="img/logo_cwtishi.png" alt=""></i>请输入入驻城市</li>
+                </ul>
+                <ul class="form">
+                    <li class="form_ins">所属园区<span>*</span></li>
+                    <li class="center"><input class="input_qb" type="text" name="" placeholder="请填入所属园区"></li>
+                    <li class="tishi"><i><img src="img/logo_cwtishi.png" alt=""></i>请输入园区</li>
+                </ul>
+                <ul class="form">
+                    <li class="form_ins">密码<span>*</span></li>
+                    <li class="center"><input class="input_qb" type="password" name=""></li>
+                    <li class="tishi"><i><img src="img/logo_cwtishi.png" alt=""></i>请输入密码</li>
+                </ul>
+                <ul class="form">
+                    <li class="form_ins">确认密码<span>*</span></li>
+                    <li class="center"><input class="input_qb" type="password" name=""></li>
+                    <li class="tishi"><i><img src="img/logo_cwtishi.png" alt=""></i>请输入确认密码</li>
+                </ul>
+                <ul class="form">
+                    <li class="form_ins">安全邮箱<span>*</span></li>
+                    <li class="center"><input class="input_qb" type="text" name="" placeholder="如:yun@dongli.com"></li>
+                    <li class="tishi"><i><img src="img/logo_cwtishi.png" alt=""></i>请输入安全邮箱</li>
+                </ul>
+                <ul class="form">
+                    <li class="form_ins">安全负责人<span>*</span></li>
+                    <li class="center"><input class="input_qb" type="text" name="" placeholder="仅用于账户安全"></li>
+                    <li class="tishi"><i><img src="img/logo_cwtishi.png" alt=""></i>请输入安全负责人</li>
+                </ul>
+                <ul class="form">
+                    <li class="form_ins">安全负责人联系手机<span>*</span></li>
+                    <li class="center"><input class="input_qb" type="text" name="" placeholder="请填入负责人手机号"></li>
+                    <li class="tishi"><i><img src="img/logo_cwtishi.png" alt=""></i>请输入负责人手机号</li>
+                </ul>
+                <ul class="form">
+                    <li class="form_ins">短信验证码<span>*</span></li>
+                    <li class="center"><input class="input_yb" type="text" name=""><input class="input_yb button" type="button" name="" value="获取验证码"></li>
+                    <li class="tishi"><i><img src="img/logo_cwtishi.png" alt=""></i>请输入用户名</li>
+                </ul>
+                <ul class="form_text">
+                    <li><input type="checkbox" name=""></li>
+                    <li>我已阅读并同意<a href="javascript:;" id="click_rzxy">《单位入驻协议》</a></li>
+                </ul>
+                <ul class="form_delu">
+                    <li><input type="button" name="" value="立即入驻"></li>
+                    <li><a href="javascript:;">我有账号,立即登录</a></li>
+                </ul>
+            </form>
+        </div>
+    </div>
+    <!-- 弹出框 -->
+    <div class="rzxz" id="rzxz">
+        <div class="rzxz_center">
+            <ul class="title">
+                <li class="title_text">单位入驻须知</li>
+                <li class="title_gb" id="title_gb">x</li>
+            </ul>
+            <ul class="text">
+                <dl>
+                    <dt>本协议双方为智慧神州（北京）科技有限公司（以下简称为"本公司"）以及贵方（以下简称为"合作方",企橙网站的ISV合作伙伴角色）。 当甲方通过网络页面点击确认或以其他方式选择接受本协议， 本协议即对甲方、乙方和丙方生效（确认或接受日期即生效日期），同时表明甲方已经充分阅读、理解并接受本协议的全部条款约束且自愿履行本协议，包括但不限于本协议和乙方通过丙方发布的现有的及持续更新或发布的服务条款和隐私权政策以及其他各项规则、制度和SLA等。 </dt>
+                    <dt>本协议约定了本公司基于企橙网站（www.weqicheng.com/）与合作方之间的合作条约和相关合作事项。 合作方同意本协议的全部条款并按照页面上的提示完成全部的注册程序。当合作方点击"我同意"按钮或以其他方式接受本协议时，本协议即生效（确认或接受日期即"生效日期"），同时表明合作方已经充分阅读、理解并接受本协议的全部条款约束并承诺履行本协议。 </dt>
+                    <dt>若本协议与《神州企橙用户协议》或合作方与本公司签订的其它协议（以下简称为"相关协议"）中的条款相冲突或不一致，则以本协议为准，但仅在该冲突范围内适用。本协议中加引号但未定义的术语以相关协议中的定义为准。
+                    本协议中其他加引号和加粗的术语定义，请见本协议"一、定义"。 </dt>
+                    <dt>
+                        一、定义
+                    </dt>
+                    <dd>
+                        1.1 "企橙"指本公司提供的技术服务电子商务平台，合作方可以通过该平台发布"技术服务"，客户可以通过该平台购买并使用"技术服务"。
+                    </dd>
+                    <dd>
+                        1.1 "企橙"指本公司提供的技术服务电子商务平台，合作方可以通过该平台发布"技术服务"，客户可以通过该平台购买并使用"技术服务"。
+                    </dd>
+                    <dd>
+                        1.1 "企橙"指本公司提供的技术服务电子商务平台，合作方可以通过该平台发布"技术服务"，客户可以通过该平台购买并使用"技术服务"。
+                    </dd>
+                    <dd>
+                        1.1 "企橙"指本公司提供的技术服务电子商务平台，合作方可以通过该平台发布"技术服务"，客户可以通过该平台购买并使用"技术服务"。
+                    </dd>
+                    <dd>
+                        1.1 "企橙"指本公司提供的技术服务电子商务平台，合作方可以通过该平台发布"技术服务"，客户可以通过该平台购买并使用"技术服务"。
+                    </dd>
+                </dl>
+            </ul>
+            <ul class="button">
+                <input type="button" value="知道了" id="button_gb" name="">
+            </ul>
+    </div>
+</div>
+
+</body>
+</html>

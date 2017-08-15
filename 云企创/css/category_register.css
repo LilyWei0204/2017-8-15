@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #444;
+    list-style: none;
+}
+/*input[placeholder], [placeholder], *[placeholder] {*/
+    /*color:#015eaf !important;*/
+/*}*/
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: #ccc;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #ccc;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #ccc;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #ccc;
+}
+h2{
+    /*padding: 10px 20px;*/
+   height:65px;line-height:65px;font-size:24px;
+}
+
+.register {
+    width:100%;
+    margin: 0px auto 20px auto;
+    /*border: 1px solid #ddd;*/
+}
+
+.register form{min-width:700px }
+.register:nth-child(2){display: none}
+
+.register h3 {
+    width: 100%;
+    text-align: center;font-size:16px;
+    margin: 0 auto 25px auto;
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+}
+.register h5{font-size: 14px;text-indent:0;margin: 3px 0}
+.register li{font-size: 14px;text-indent:0;margin: 3px 0;}
+.register ul li ul li{padding-left: 25px;font-size: 13px;color: #666}
+.register span{padding: 5px 0 0 5px;margin-top: 5px;position: relative;top: 3px;color:#fa6804;font-weight: bold}
+.register li span{padding: 10px 5px 0 0;margin-top: 5px;position: relative;top: 3px}
+
+.register h4 {
+    font-weight: normal;height:65px;font-size:24px;line-height:65px;text-align: center;
+/*    color: #666;
+    background: #eee;*/
+    /*padding: 8px 0 8px 15px;*/
+    /*width: calc(100% - 15px);*/
+}
+
+.detail {
+    width: 90%;
+    margin: 0 auto;
+    padding: 3% 5%;
+    
+/*    height: 700px;
+    overflow-y: scroll;*/
+}
+
+.detail p {
+    line-height:30px;text-indent: 30px;
+}
+
+.register button,.complete button{
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    margin: 100px 0 50px 50%;
+    text-align: center;
+    border: none;
+    padding: 0;
+    position: relative;
+    left: -100px;
+}
+
+.register button:hover,.complete button:hover{
+/*    background: #005cac;*/
+    cursor: pointer;
+
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.register form label {
+    width: 70%;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    padding: 10px 30% 10px 0;
+    text-align: right
+}
+.register form label input, form label select {
+    width: 48%;
+    float: right;
+    padding: 8px 10px;
+    text-align: left;
+    margin: 0 0 0 10px;
+    border: 1px solid #ddd;
+}
+form label select{width: 50%}
+.complete{width: 400px;height: 250px;margin: 0 auto;border: 1px solid #ddd;text-align: center;display: none;}
+.complete h4{padding: 10px 20px;background:#005cac;color: #fff;text-align: left }
+.complete span{color:#f98434;padding: 0 15px}
+.complete .msg{padding:50px 10px 40px 10px}
+.register form label.radio{height:auto;line-height: 70px;}
+.radio_msg{width:48%;float: right;padding: 8px 10px;text-align: left;margin: 0 0 0 12px;border: 1px solid #ddd;}
+.register form label .radio_msg label{width:100%;height:100%;line-height:100%;padding: 0;margin:5px 0 5px 0;float: right;text-align: left}
+.register form label .radio_msg label input{width:15px;height:15px;padding: 0;margin-right: 20px}
+
+
+.reg_box{width:740px;min-height:650px;margin:165px auto;border:1px solid #ccc;box-shadow: 0 0 5px #ccc;background:#fff;z-index: 999;position:relative}
+.reg_bg{width:100%;height:585px;overflow:hidden;min-width:1200px;text-align: center;position:absolute;left:0;right:0;}
+.reg_bg img{width:100%;}
+
+

@@ -1,0 +1,99 @@
+/*
+* @Author: Marte
+* @Date:   2017-05-08 14:19:50
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-05-09 18:06:34
+*/
+*{margin: 0;padding: 0;list-style: none;}
+a{text-decoration:none;list-style:none;}
+input,button{outline:none;border:none;line-height:40px;}
+
+/*企业入驻*/
+.logo_firm{width:100%;height:auto;overflow: hidden;background:#F1F2F4 url(../img/login-banner.jpg) no-repeat;position:relative;}
+.firm_logo{width:1200px;height:auto;overflow:hidden;margin:200px auto 100px;background:#fff;box-shadow:0 0 5px #ccc;}
+.firm_logo .title{width:100%;text-align: center;line-height:64px;font-size: 24px;color:#015eaf;border-bottom: 1px solid #ccc;}
+.firm_logo .bd{width:930px;height:auto;overflow:hidden;margin:0 auto;}
+.firm_logo .bd ul.form{width:100%;height:50px;margin:14px auto;}
+.firm_logo .bd ul.form li{float: left;width:33.3333%}
+.firm_logo .bd ul.form li.form_ins{height:50px;text-align:right;font-size:16px;color:#666;line-height:50px;}
+.firm_logo .bd ul.form li.form_ins span{margin:0 10px;color:#015eaf;}
+.firm_logo .bd ul.form li.center input.input_qb{width:90%;height:40px;margin:5px auto;border:1px solid #ccc;border-radius:5px;padding:0 0 0 20px;}
+.firm_logo .bd ul.form li.tishi{color:#f63a48;text-align:left;line-height:50px;}
+.firm_logo .bd ul.form li.tishi i{display: block;width:18px;height:18px;margin:16px;float:left;}
+.firm_logo .bd ul.form li.tishi i img{width:100%;}
+input.input_yb{width:40%;float:left;height:40px;margin:5px 0 5px 5%;border:1px solid #ccc;border-radius:5px;padding:0 0 0 20px;}
+.firm_logo .bd ul.form li.center input.button{color:#fff;font-size:16px;background:#015eaf; cursor:pointer;}
+ ul.form_text{width:30%;height:50px;margin:14px auto;}
+ ul.form_text li{float:left;line-height:50px;color:#666;margin:0 0 0 10px;}
+ ul.form_text li a{color:#015eaf;}
+ ul.form_delu{width:40%;height:50px;margin:14px auto;}
+ul.form_delu li{float:left;line-height:50px;color:#666;margin:0 0 0 10px;}
+ ul.form_delu li input{width:132px;height:46px;margin:2px auto;background:#015eaf;border-radius:5px;color:#fff;font-size:18px;border:none;cursor:pointer;}
+  ul.form_delu li.tijiao_button{width:50%;height:auto;color:#666;margin:0 25%;}
+ul.form_delu li a{font-size:16px;color:#015eaf;}
+.rzxz{width:100%;height:100%;background:rgba(0,0,0,0.3);position:fixed;top:0;left:0;display:none;}
+.rzxz .rzxz_center{width:900px;height:auto;overflow:hidden;margin:100px auto;background:#fff;}
+.rzxz .rzxz_center ul.title{width:100%;height:80px;font-size:20px;line-height:50px;}
+.rzxz .rzxz_center ul.title li{float: left;height:80px;}
+.rzxz .rzxz_center ul.title li.title_text{width:850px;line-height:80px;text-align:center;border-bottom:1px solid #ccc;color:#666;}
+.rzxz .rzxz_center ul.title li.title_gb{width:50px;border-bottom:1px solid #ccc;text-align:center;cursor:pointer;font-size:20px;color:#015eaf;line-height:80px;}
+.rzxz .rzxz_center ul.text{width:100%;height: 500px;overflow-y:auto;}
+.rzxz .rzxz_center ul.text dl{width:90%;margin:0 5%;color:#555;font-size:16px;line-height:30px;}
+.rzxz .rzxz_center ul.text dl dd{text-indent:20px;}
+.rzxz .rzxz_center ul.button{width:900px;height:80px;border-top:1px solid #ccc;}
+.rzxz .rzxz_center ul.button input{width:134px;height:45px;margin:17px 388px;text-align:center;font-size:18px;color:#fff;background:#015eaf;border:none;border-radius:5px;}
+.firm_logo .bd ul.form li.center{position:relative;}
+.firm_logo .bd ul.form li.center span{display: block;width:14px;height:7px;overflow:hidden;position:absolute;top:21px;left:90%; cursor:pointer;}
+.firm_logo .bd ul.form li.center span img{width:100%;}
+.firm_logo .bd ul.form li.center div{width:100%;height:auto;overflow:hidden;}
+.firm_logo .bd ul.form li.center div ul.xiala_ulxx{width:100%;height:auto;overflow:hidden;box-shadow:0 0 5px #ccc;border:1px solid #ccc;background:#fff;position:absolute;z-index:9;display:none;}
+.firm_logo .bd ul.form li.center div ul.xiala_ulxx li{height:40px;line-height:40px;font-size:16px;text-align:left;padding:0 0 0 10%;color:#333;width:90%;cursor:pointer;}
+.firm_logo .bd ul.form li.center div ul.xiala_ulxx li:hover{background:#eee;}
+/*服务商认证页面*/
+.service{width:100%;height:auto;background:#fff;}
+.service_box{width:1200px;height:auto;margin:50px auto;}
+.service_box .service_title{width:100%;height:50px;}
+.service_box .service_title ul{width:100%;height:50px;}
+.service_box .service_title ul li{width:100%;height:50px;line-height:50px;text-align:left;font-size:16px;color:#666;}
+.service_box .service_title ul li span{color:#015eaf;}
+.service_form{width:1200px;height:auto;}
+.service_form .form_title{width:1200px;height:40px;line-height:40px;font-size:16px;color:#000;text-align:left;}
+.service_form .form_center{width:1198px;height:auto;padding:20px 0;border:1px solid #ccc;margin:0 0 10px 0;}
+.service_form .form_center ul.form_ul{width:100%;height:50px;margin:14px auto;}
+.service_form .form_center ul.form_ul li{width:33.3333%;float: left;font-size:16px;}
+.service_form .form_center ul.form_ul li.title{height:50px;line-height:50px;text-align:right;color:#666;}
+.service_form .form_center ul.form_ul li.title span{margin:0 10px;color:#015eaf;}
+.service_form .form_center ul.form_ul li.input{position:relative;}
+.service_form .form_center ul.form_ul li.input input.input_qb{width:90%;height:40px;margin:5px auto;border:1px solid #ccc;border-radius:5px;padding:0 0 0 20px;}
+.service_form .form_center ul.form_ul li.tishi{color:#f63a48;text-align:left;line-height:50px;}
+.service_form .form_center ul.form_ul li.tishi i{display: block;width:18px;height:18px;margin:16px;float:left;}
+.service_form .form_center ul.form_ul li.tishi i img{width:100%;}
+.service_form .form_center ul.form_ul li.input div{width:100%;height:auto;overflow:hidden;}
+.service_form .form_center ul.form_ul li.input div ul.xiala_ulxx{width:100%;height:auto;overflow:hidden;box-shadow:0 0 5px #ccc;border:1px solid #ccc;background:#fff;position:absolute;z-index:999;display:none;}
+.service_form .form_center ul.form_ul li.input div ul.xiala_ulxx li{height:40px;line-height:40px;font-size:16px;text-align:left;padding:0 0 0 10%;color:#333;width:90%;cursor:pointer;}
+.service_form .form_center ul.form_ul li.input div ul.xiala_ulxx li:hover{background:#eee;}
+.service_form .form_center ul.form_ul li.input span{display: block;width:14px;height:7px;overflow:hidden;position:absolute;top:21px;left:90%; cursor:pointer;}
+.service_form .form_center ul.form_ul li.input span img{width:100%;}
+
+.tab_form{width:1200px;height:auto;}
+.radio_form{width:1200px;height:auto;border:1px solid #ccc;padding:20px auto;border-bottom:none;}
+.radio_form label{display: block;width:80%;height:50px;line-height:50px;margin:0 auto;padding:0 0 0 20%;cursor:pointer;}
+.tab_box{border:1px solid #ccc;width:1200px;height:auto}
+.ul_input{width:100%;height:auto;margin:12px auto;overflow:hidden;}
+.input_title{width:33.333%;height:50px;line-height:50px;float:left;font-size:16px;text-align:right;color:#666;}
+.input_title span{margin:0 10px;color:#015eaf;}
+.input_sr{width:33.333%;height:50px;float:left;}
+.input_text{width:90%;height:40px;margin:5px auto;border:1px solid #ccc;border-radius:5px;padding:0 0 0 20px}
+.input_tishi{width:33.333%;height:auto;float: left;color:#f63a48;line-height:50px;}
+.input_tishi i{display: block;width:18px;height:18px;margin:16px;float:left;}
+.input_tishi i img{width:100%;}
+.text_sr{width:33.333%;height:auto;float: left;color:#bbb;line-height:50px;}
+.input_tj{width:33.333%;height:auto;float: left;height:50px;}
+.input_file_tj{cursor:pointer;display: block;opacity: 0;width:1px;height:1px;}
+.label_file{border:1px solid #ccc;width:120px;height:40px;margin:5px 100px;background:#fff;color:#bbb;cursor:pointer;display: block;text-align:center;line-height:40px;}
+.tab_form_box{display:none;}
+
+.tab_fr_box{width:1200px;height:auto;border:1px solid #ccc;}
+.input_text_yzm{width:60%;height:40px;margin:5px auto;border:1px solid #ccc;border-radius:5px;padding:0 0 0 20px;float: left;}
+.input_button_yzm{width:25%;height:40px;margin:5px 0 5px 5%;border-radius:5px;float: left;background:#bbb;color:#fff;font-size:16px;line-height:40px;text-align:center;cursor:pointer;}
+.textarea{width:100%;height:100px;text-indent:20px;}

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册界面</title>
+    <link rel="stylesheet" href="css/colors.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/LoginAndReg.css">
+    <link rel="stylesheet" href="css/category_register.css">
+    <script type="text/javascript" src="js/jquery1.42.min.js"></script>
+    <script src="js/index.js"></script>
+    <style>
+        [id="checkbox-1"]:checked + label ,[id="checkbox-2"]:checked + label {
+            background-image: url("img/dui.jpg");
+            background-color: #fa6700;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        [id^="checkbox-"] + label {
+            background-color: #fa6700;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+            padding: 9px;
+            border-radius: 1px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        [id^="checkbox-"] + label:active {
+            box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+	
+				
+<div class="wl_top">
+    <div class="wide margin">
+        <span>您好，欢迎来到云动力服务平台！</span>
+        <ul>
+            <li>
+                <a href="">[登录]</a>
+                <a href="">[注册]</a>
+            </li>
+            <li><a href="" style="padding:0 5px;border-left: 1px solid #E3E3E3;border-right: 1px solid #E3E3E3;">关注我们</a></li>
+            <li><a href="">收藏本站</a></li>
+            <li class="tel"><a href="" style="font-weight: bold">400-805-2223</a></li>
+        </ul>
+    </div>
+</div>
+<!--顶部 E-->
+
+<div class="wl_header">
+    <div class="wide margin">
+        <div class="wl_head">
+            <a href=""><div class="wl_logo"></div></a>
+            <div class="wl_search">
+                <li>
+                <input type="text" placeholder="   请输入关键字..." class="search">
+                <input type="button" name="" value="搜索" class="button">
+                </li>
+                <div class="wl_hot">
+                    <span style="display: block;">热门搜索:</span>
+                    <ul>
+                        <li>网站建设</li>
+                        <li>网站建设</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="wl_menu">
+            <div class="wl_nav"><span>首页</span></div>
+            <ul>
+                <li><a href="">服务超市</a></li>
+                <li><a href="">需求大厅</a></li>
+                <li><a href="">项目库</a></li>
+                <li><a href="">服务商入住</a></li>
+                <li><a href="">创业百事通</a></li>
+                <li><a href="">交流活动</a></li>
+            </ul>
+        </div>
+
+    </div>
+</div>
+<!--头部 E-->
+	
+<div class="reg_bg"><img src="img/login_reg_bg.jpg" alt="banner" /></div>
+
+
+<div class="reg_box" style="display: block">
+    <div class="login">
+        <h2 class="blue_g">欢迎注册</h2>
+        <p><span class="msg active" id="organization">单位账号注册</span><span class="msg" id="personal">个人账号注册</span> <i></i></p>
+        <div class="register " id="organization_d">
+            <div class="detail" style="width: 62%">
+                <form action="post">
+                    <label>组织机构代码<span>*</span><input type="text" value="" placeholder="三证合一企业，请填写正数第九位到倒数第2位之间的9位"></label>
+                    <label>登录账号<span>*</span><input type="text" value="" placeholder=""></label>
+                    <label>单位名称<span>*</span><input type="text" value="" placeholder=""></label>
+                    <label>联系人<span>*</span><input type="text" value="" placeholder=""></label>
+                    <label>手机号码<span>*</span><input type="text" value="" placeholder="手机号码是系统与您联系的重要途径，请正确输入"></label>
+                    <label>电子邮箱<span>*</span><input type="text" value="" placeholder="电子邮箱是与您联系的重要途径，请正确输入"></label>
+                    <label>登录密码<span>*</span><input type="text" value=""
+                                                    placeholder="密码长度为6-16位，可由字母或数字组成，区分大小写"></label>
+                    <label>确认密码<span>*</span><input type="text" value="" placeholder="确认密码必须和登录密码一致"></label>
+                    <label class="msg1"><div id="ico_dui"><input type="checkbox" value="0" class="check_view_state"
+                                                                 id="checkbox-1" style="display: none;">
+                        <label for="checkbox-1"></label></div><span style="">我已阅读并同意《用户注册协议》</span><span><a
+                            href="www.baidu.com" class="orange">www.baidu.com</a>已有账号点此登录</span></label>
+                    <button class="orange_g " type="submit" id="submit_1"
+                            style="width: 100%; margin: 0 auto;position: relative;left: 0">立即注册
+                    </button>
+                </form>
+            </div>
+        </div>
+        <div class="register " id="personal_d">
+            <div class="detail" style="width: 62%">
+                <form action="post">
+                    <label>手机号码言<span>*</span><input type="text" value="" placeholder="请输入"></label>
+                    <label>密码<span>*</span><input type="text" value="" placeholder="请输入"></label>
+                    <label>确认密码<span>*</span><input type="text" value="" placeholder="请输入"></label>
+                    <label>真实姓名<span style="color: #fff">*</span><input type="text" value="" placeholder="请输入"></label>
+                    <label>输入验证码<span style="color: #fff">*</span>
+                        <button type="button" class=" verification_code shadow" style="">M8K2</button>
+                        <input style="width:40.5%; float: right" type="text" value="" placeholder="短信验证码">
+                    </label>
+                    <label>短信验证码<span>*</span>
+                        <button type="button" class=" verification_code orange_g" style="">获取验证码</button>
+                        <input style="width:40.5%; float: right" type="text" value="" placeholder="短信验证码">
+                    </label>
+                    <label class="msg1"><!--<div id="ico_dui"><img src="images/ico_ture.jpg" alt=""></div>-->
+                        <div id="ico_dui"><input type="checkbox" value="0" class="check_view_state"
+                                                 id="checkbox-2" style="display: none;" checked>
+                            <label for="checkbox-1"></label></div>
+                        <span style="">我已阅读并同意《用户注册协议》</span><span><a
+                            href="www.baidu.com" class="orange">www.baidu.com</a>已有账号点此登录</span></label>
+                    <button class="orange_g " type="submit" id="submit_2"
+                            style="width: 100%; margin: 0 auto;position: relative;left: 0">立即注册
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="clear"></div>
+
+<!-- footer -->
+<div class="footer">
+    <div class="footer_center">
+        <ul>
+           <li>Copyright@2013-2017云动力科技有限公司版权所有 All Rights Reserved © 陕ICP备14009030号网站介绍
+            </li>
+            <li>
+                地址: 西安市高新三路财富中心二期B座（1505室）
+            </li>
+            <li>
+                工作时间: 9:00-18:00 电话: 400-805-2223
+            </li>
+        </ul>
+    </div>
+</div>
+<!-- footer E -->
+
+<!-- go top -->
+<div class="go_zj" id="go_zj">
+    <li class="go_wechat"></li>
+    <li class="go_qq"></li>
+    <li class="go_wibo"></li>
+    <li class="go_top" id="go_top"></li>
+</div>
+<!-- go top E -->
+
+
+
+
+<script>
+    var personal=document.getElementById("personal");
+    var personal_d=document.getElementById("personal_d");
+    var organization=document.getElementById("organization");
+    var organization_d=document.getElementById("organization_d");
+
+    personal.onclick=function () {
+        organization_d.style.display="none";
+        personal_d.style.display="block";
+        personal.setAttribute("class","msg active");
+        organization.setAttribute("class","msg");
+    };
+    organization.onclick=function () {
+        organization_d.style.display="block";
+        personal_d.style.display="none";
+        personal.setAttribute("class","msg");
+        organization.setAttribute("class","msg active");
+
+    }
+
+//    笨办法对勾
+//    var ico_dui=document.getElementById("ico_dui");
+//    ico_dui.onclick=function () {
+//        if(this.getElementsByTagName("img")[0].style.display=="none")
+//        {this.getElementsByTagName("img")[0].style.display="block"
+//        }else {
+//            this.getElementsByTagName("img")[0].style.display="none"
+//        }
+//    }
+
+        var checkbox_2=document.getElementById("checkbox_2");
+        var checkbox_1=document.getElementById("checkbox_1");
+        var submit_2=document.getElementById("submit_2");
+        var submit_1=document.getElementById("submit_1");
+
+    submit_1.onclick=function () {
+        alert(1)
+            if(checkbox_1.checked==true)
+            {alert(1)
+            }else {
+                alert(2)  /*我出不来*/
+            }
+        }
+
+</script>
+</body>
+</html>
