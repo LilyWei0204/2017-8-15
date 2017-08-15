@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to weili
 
 You can use the [editor on GitHub](https://github.com/weili11/2017-8-15/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
